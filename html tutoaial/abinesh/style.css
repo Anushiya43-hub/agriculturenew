@@ -1,0 +1,166 @@
+:root{
+    --yellow:yellow;
+    --red: red ;
+    --green:green; 
+}
+*{font-family:'Times New Roman', Times, serif;}
+
+body{ width: 100vw;
+   height: 100vh;}
+
+ header{ display: flex;
+     position: absolute;
+     top: 10px;
+     width: 100vw;}
+     
+ header a{font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none; 
+  font-weight: 550;
+   font-size: 19px;}
+
+ .nav {
+  list-style-type: none;
+  text-align: end;
+margin: 10px;
+padding: 0;
+width:83vw;
+}
+
+
+.nav li {
+  display: inline-block;
+   padding: 20px;
+  /* direction: rtl; */
+ 
+}
+li :last-child{border-bottom: none;}
+ /* .menu{flex: 2;}
+ #home{flex:1;}
+ #aboutus{flex:1;}
+ #contactus{flex:1;} */
+
+ /* .dropdown{position: relative;} */
+
+
+  h1{width: 17vw;
+    /* width:250px;  */
+   height:50px ;
+   background-color: rgb(73, 97, 143);
+   text-align:center;
+  cursor: pointer; } 
+  
+
+
+.order{ position: absolute; top: 70px;
+   display: flex;
+    flex-direction:column;
+    
+    height: 360px;
+     width:250px; 
+      background-color: rgb(169, 223, 200);
+       line-height: 2.5 ;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+         font-weight: 600;
+         text-align:left; 
+         list-style-type: none;
+         margin:0;
+         padding:1px;
+         
+}
+
+ 
+
+ .order li a{color: rgb(61, 52, 184);
+     display: block;
+      padding:5px;
+text-decoration: none;
+border-bottom: 2px solid white;
+font-size: 18px;
+
+}
+
+
+
+.order a:hover {padding-left: 20px;
+    color:#ed5565; 
+    transition: all .4s;
+   }
+
+  header a:hover{text-decoration: underline; 
+    color: var(--green);} 
+
+  /* #check{display: none; */
+/* }
+label #btn, label #cancel{
+ position:absolute;
+ border-radius: 3px;
+ cursor:pointer;
+ background:#042331 ;
+}
+
+label #btn{left:40px;
+top:25px;
+font-size: 35px;
+color:white;
+padding:6px 12px;
+transition: all .5s;}
+
+label #cancel{z-index:11;
+left:-195px;
+top:17px;
+font-size: 30px;
+padding:4px 9px;
+color: #042331;
+transition: all .3s ease;}
+#check:checked ~ .order{left:0;}
+#check:checked ~ label #btn{ left:250px;
+opacity:0;
+pointer-events: none;
+}
+
+#check:checked ~ label #cancel{ left: 195px;} */ 
+
+
+/* activity style */
+
+ .imgact{width:100vw; 
+ height:200px;
+   display: flex; }  
+
+  
+   
+
+
+
+.homeact{
+  position: absolute;
+  
+   display: flex;top: 20px;
+ margin: 30px;
+  font-size: 24px; 
+ font-weight:600;
+ text-decoration: none;
+cursor:progress;}  
+
+
+div .homeact:hover{color: var(--green); 
+    text-decoration: underline;
+   font-size: 25px;
+  }
+ .p1{font-size: 2rem;
+margin: 10px;
+ padding: 15px;
+text-indent: 50px;; }
+
+
+
+ div .act li{ margin: 20px auto; 
+    padding:15px;
+font-size: 21px;
+
+}   
+.h2act{color:var(--red);
+font-size: 28px;
+  margin: 20px;
+  padding: 15px; 
+text-decoration-line: underline;}

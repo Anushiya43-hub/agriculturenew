@@ -1,0 +1,319 @@
+
+
+*{margin: 0;
+    padding: 0;}
+    body{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+ body{background-color: rgb(240, 238, 235);}
+/* body{background-image: url(/abinesh/media/gro.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+} */
+  header{background-color: rgb(88, 201, 88);
+box-sizing: border-box;
+height: 100px;}
+nav ul{box-sizing: border-box;
+  position: absolute;top: 10px;
+    width: 100vw;
+    
+    display: flex;
+    justify-content: flex-end;
+    
+}
+ 
+nav ul li{list-style: none;
+    box-sizing: border-box;
+   
+ display: inline-block;
+
+ padding: 30px;
+ 
+}
+nav ul li a{
+  text-decoration: none;
+    font-weight: 500;
+    font-size: 19px;
+    color:white;
+  
+}
+nav ul li a:hover{ text-decoration: underline;
+}
+  /* .topnav{overflow: hidden;
+    border: 2px solid;
+    width: 300px;
+} 
+.tapnav #mylink{display: none;}
+
+
+ .tapnav {color: white;
+ 
+    width: 20px;
+}
+.icon:hover{background-color:red;
+width: 20px;}
+.topnav a{
+    display: block;
+    text-decoration: none;
+font-size: 20px;
+font-weight: 500;
+padding: 5px;
+margin-top: 20px;
+
+ }  */
+  .topnav {
+    overflow: hidden;
+    background-color:rgb(88, 201, 88);
+    position: relative;
+    box-sizing: border-box;
+    width:20vw;
+    margin: 0;
+    height: 500px;
+    z-index: 1;
+    /* visibility: hidden; */
+    
+  }
+  
+  .topnav #myLinks {
+    display: none;
+    
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background: rgb(192, 182, 182);
+    display: block;
+    width: 30px;
+    height: 30px;
+    top: 0;
+  }
+  .topnav a.icon:hover{background-color: #ddd ;
+width: 30px;}
+
+#login {border:2px solid white;;
+width: 45px;
+height: 4px;
+background-color: white;
+color: black;
+margin-top: 100px;
+margin-left: 10px;
+border-radius: 8%;
+font-size: large;
+font-weight: 400;
+}
+
+h1{color: rgb(22, 15, 15);
+text-decoration: underline;
+box-sizing: border-box;
+margin: 10px;}
+  
+   .topnav a:hover {
+    background-color: #ddd;
+    color: rgb(17, 17, 17);
+    width: 400px;
+  } 
+.img {box-sizing: border-box;
+display:flex;
+flex-wrap: wrap;
+
+margin-top: 100px;
+justify-content: space-around;
+} 
+
+
+.img2{box-sizing: border-box;
+  flex-direction:row;
+  display: flex;
+  flex-wrap: wrap;
+ padding: 50px;
+
+  justify-content: space-between;
+  /* display: grid;
+  grid-template-columns:repeat(3,1fr) ; */
+  
+  margin-top: 100px;
+  
+}
+ /* .img h2{box-sizing: border-box;
+
+margin:70px;
+width:100px;
+text-align: center;
+border: 2px solid black;} */
+.img2 h2{
+margin:15px;
+padding: 10px;
+} 
+ .major{margin-top: 100px;}
+.cash{margin-top:80px;} 
+
+
+#cotton{border-radius: 50%;box-shadow: 10px 10px 5px gray;}
+#groundnut{border-radius: 50%;box-shadow: 10px 10px 5px gray;}
+#sugarcane{border-radius: 50%;box-shadow: 10px 10px 5px gray;}
+#cashewnut{border-radius: 50%;box-shadow: 10px 10px 5px gray; }
+#rice{border-radius: 50%;box-shadow: 10px 10px 5px gray;}
+#maize{border-radius: 50%;box-shadow: 10px 10px 5px gray;}
+#onion{border-radius: 50%;box-shadow: 10px 10px 5px gray; }
+#chilly{border-radius: 50%;box-shadow: 10px 10px 5px gray;}
+.cashew{margin-top: 50px;}
+
+
+.img h2 a{text-decoration: none;}
+.img2 h2 a{text-decoration: none;}
+.img h2 a:hover{text-decoration: underline;
+  color:red;font-size:28px;
+ 
+  
+}
+.img2 h2 a:hover{text-decoration: underline;
+  color: red;font-size:28px;
+}
+
+
+.img h2 a:hover:active{color: green}
+.img2 h2 a:hover:active{color: green}
+.img{position: relative;}
+.list1{box-sizing: border-box;
+ 
+padding: 10px;
+margin:10px;
+border: 2px solid black;
+border-radius: 20px;
+width:300px;
+box-shadow: 10px 15px 10px gray;
+background-color:rgba(106, 236, 106,.8);
+
+}
+
+ .list1 li{list-style: none;
+  text-align: center;
+ font-weight: bold;
+  }
+  #corn span{visibility: hidden;
+  border: 2px solid black;
+background-color: black;
+color: white;
+box-shadow:5px 5px 5px gray;
+}
+ #corn:hover span{visibility:visible;} 
+
+#paddy span{visibility: hidden;
+  border: 2px solid black;
+  background-color: black;
+  color: white;
+  box-shadow:5px 5px 5px gray;}
+#paddy:hover span{visibility: visible;}
+
+#lentil span{visibility: hidden;
+  border: 2px solid black;
+  background-color: black;
+  color: white;
+  box-shadow:5px 5px 5px gray;}
+#lentil:hover span{visibility: visible;}
+
+#oilseed span{visibility: hidden;
+  border: 2px solid black;
+  background-color: black;
+  color: white;
+  box-shadow:5px 5px 5px gray;}
+#oilseed:hover span{visibility: visible;}
+
+#brown span{visibility: hidden;
+  border: 2px solid black;
+  background-color: black;
+  color: white;
+  box-shadow:5px 5px 5px gray;}
+#brown:hover span{visibility: visible;}
+
+#pro span{visibility: hidden;
+  border: 2px solid black;
+  background-color: black;
+  color: white;
+  box-shadow:5px 5px 5px gray;}
+#pro:hover span{visibility: visible;}
+
+#perambalur span{visibility: hidden;
+  border: 2px solid black;
+  background-color: black;
+  color: white;
+  box-shadow:5px 5px 5px gray;}
+#perambalur:hover span{visibility: visible;}
+
+#capsi span{visibility: hidden;
+  border: 2px solid black;
+  background-color: black;
+  color: white;
+  box-shadow:5px 5px 5px gray;}
+#capsi:hover span{visibility: visible;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .list2{box-sizing: border-box;
+    padding: 10px;
+    margin:10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    width:300px;
+    box-shadow: 10px 15px 10px gray;
+    background-color:rgba(106, 236, 106,.8);
+
+    }
+    
+     .list2 li{list-style: none;
+      text-align: center;
+      font-weight: bold;
+      }
+    .down{margin-top: 120px;}  
+    .pagination{box-sizing: border-box;
+    width: 90vw;
+    margin: 30px;
+ 
+text-align: center;} 
+    .pagination a {font-size: 29px;
+   box-sizing: border-box;
+   padding:10px;
+  text-decoration: none;
+  border: 2px solid black;
+  background-color: rgb(235, 32, 32);
+  color: white;
+  border-radius: 15px;
+}
+.pagination a:hover{background-color:rgba(65, 218, 65, 0.8); ;}
+
+
+
+/* scheme page */
+
+.container{box-sizing: border-box;
+width: 100vw;}
+
+ol h1{box-sizing: border-box;
+  margin: 30px;
+padding: 20px;
+color: rgb(125, 125, 189);
+text-transform:uppercase;
+text-align: center;}
+
+
+ol h2,p{box-sizing: border-box;
+margin: 30px;
+}
+ol p{text-align: justify;}
